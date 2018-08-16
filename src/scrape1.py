@@ -46,7 +46,8 @@ saved_domains = {
     "tim.blog": "content-area"
 }
 
-my_url = "http://tim.blog"
+# my_url = "http://tim.blog"
+my_url = "https://www.truecar.com/used-cars-for-sale/listings/lexus/rx-350/price-0-45000/location-westbury-ny/?drivetrain=AWD&mileageHigh=25000"
 
 print("Grabbing...", my_url)
 domain = urlparse(my_url).netloc
